@@ -59,82 +59,140 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu-wrapper">
         <div class="container mobile-menu">
-          <button class="mobile-menu-close">Close</button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Addres</address>
-          <div>Soc Link</div>
+          <button type="button" class="mobile-menu-close">
+            <svg class="menu-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
         </div>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-list">
+              <li class="mobile-item">
+                <a class="mobile-link mobile-active" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-item"><a class="mobile-link" href="">Portfolio</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+            <address class="addrs-container">
+              <ul class="menu-addrs-list">
+                <li class="menu-addrs-item"><a class="menu-addrs-link"  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                ></li>
+                <li class="menu-addrs-item"><a class="menu-addrs-link href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                ></li>
+              </ul>
+            </address>
+            <div class="media-container">
+              <ul class="media-list">
+                <li class="media-item">
+                  <a class="media-link" href=""></a>
+                  <svg class="media-svg" width="24" height="24">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </li>
+                <li class="media-item">
+                  <a class="media-link" href=""></a>
+                  <svg class="media-svg" width="24" height="24">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </li>
+                <li class="media-item">
+                  <a class="media-link" href=""></a>
+                  <svg class="media-svg" width="24" height="24">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </li>
+                <li class="media-item">
+                  <a class="media-link" href=""></a>
+                  <svg class="media-svg" width="24" height="24">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          
+
+        
       </div>
     </header>
     <main>
-      <!-- hero
+      
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
-      -->
-      <!--TWO
+      
+      
       <section class="section-two">
         <div class="container">
           <h2 class="title-two-sect visually-hidden">Advantages</h2>
           <ul class="list-sect-two">
             <li class="item-sect-two">
-              <div class="sect-two-container">
+              <div class="sect-two-container visually-hidden">
                 <svg class="sect-two-icons" width="64" height="64">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
+              <div class="subject-container">
               <h3 class="subject">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
+            </div>
             </li>
             <li class="item-sect-two">
-              <div class="sect-two-container">
+              <div class="sect-two-container visually-hidden">
                 <svg class="sect-two-icons" width="64" height="64">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
+              <div class="subject-container">
               <h3 class="subject">Punctuality</h3>
               <p class="description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
+            </div>
             </li>
             <li class="item-sect-two">
-              <div class="sect-two-container">
+              <div class="sect-two-container visually-hidden">
                 <svg class="sect-two-icons" width="64" height="64">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
+              <div class="subject-container">
               <h3 class="subject">Diligence</h3>
               <p class="description">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
+            </div>
             </li>
             <li class="item-sect-two">
-              <div class="sect-two-container">
+              <div class="sect-two-container visually-hidden">
                 <svg class="sect-two-icons" width="64" height="64">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
+              <div class="subject-container-last">
               <h3 class="subject">Technologies</h3>
               <p class="description">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
+            </div>
             </li>
           </ul>
         </div>
       </section>
-      -->
-      <!--THREE
+      
       <section class="section-three">
         <div class="container">
           <h2 class="title-three-sect">Our Team</h2>
@@ -143,12 +201,12 @@
               <img
                 src="./images/img-3.jpg"
                 alt="Mark Guerrero"
-                width="264"
+                width="100%"
                 height="260"
               />
               <div class="info-subj">
-                <h3 class="subject">Mark Guerrero</h3>
-                <p class="description">Product Designer</p>
+                <h3 class="subject-name">Mark Guerrero</h3>
+                <p class="description-prof">Product Designer</p>
 
                 <ul class="sect-three-list-icons">
                   <li class="sect-three-item-icons">
@@ -182,12 +240,12 @@
               <img
                 src="./images/img-2.jpg"
                 alt="Tom Ford"
-                width="264"
+                width="100%"
                 height="260"
               />
               <div class="info-subj">
-                <h3 class="subject">Tom Ford</h3>
-                <p class="description">Frontend Developer</p>
+                <h3 class="subject-name">Tom Ford</h3>
+                <p class="description-prof">Frontend Developer</p>
 
                 <ul class="sect-three-list-icons">
                   <li class="sect-three-item-icons">
@@ -222,12 +280,12 @@
               <img
                 src="./images/img-1.jpg"
                 alt="Camila Garcia"
-                width="264"
+                width="100%"
                 height="260"
               />
               <div class="info-subj">
-                <h3 class="subject">Camila Garcia</h3>
-                <p class="description">Marketing</p>
+                <h3 class="subject-name">Camila Garcia</h3>
+                <p class="description-prof">Marketing</p>
 
                 <ul class="sect-three-list-icons">
                   <li class="sect-three-item-icons">
@@ -261,12 +319,12 @@
               <img
                 src="./images/img.jpg"
                 alt="Daniel Wilson"
-                width="264"
+                width="100%"
                 height="260"
               />
               <div class="info-subj">
-                <h3 class="subject">Daniel Wilson</h3>
-                <p class="description">UI Designer</p>
+                <h3 class="subject-name">Daniel Wilson</h3>
+                <p class="description-prof">UI Designer</p>
                 <ul class="sect-three-list-icons">
                   <li class="sect-three-item-icons">
                     <a class="sect-three-link" href=""
