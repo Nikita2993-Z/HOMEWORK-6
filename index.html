@@ -122,6 +122,7 @@
     <main>
       <section class="hero">
         <div class="container">
+          
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button"><p class="hero-btn-text">Order Service</p></button>
         </div>
@@ -198,7 +199,7 @@
           <ul class="list-sect-three">
             <li class="item-sect-three">
               <img
-                src="./images/img-3.jpg"
+                src="./images/mark.jpg" srcset="./images/mark@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -237,7 +238,7 @@
             </li>
             <li class="item-sect-three">
               <img
-                src="./images/img-2.jpg"
+              src="./images/tom.jpg" srcset="./images/tom@2x.jpg 2x"
                 alt="Tom Ford"
                 width="100%"
                 height="260"
@@ -277,7 +278,7 @@
 
             <li class="item-sect-three">
               <img
-                src="./images/img-1.jpg"
+              src="./images/camila.jpg" srcset="./images/camila@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="100%"
                 height="260"
@@ -316,7 +317,7 @@
             </li>
             <li class="item-sect-three">
               <img
-                src="./images/img.jpg"
+              src="./images/daniel.jpg" srcset="./images/daniel@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="100%"
                 height="260"
@@ -363,12 +364,12 @@
           <ul class="list-sect-four">
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/1.jpg"
-                  alt="Banking App"
-                  width="356"
-                  height="300"
-                />
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/bankingapp.jpg 1x, ./images/sectfour-retina/desktop/bankingapp@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/bankingapp.jpg 1x, ./images/sectfour-retina/tablet/bankingapp@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/bankingapp.jpg 1x, images/sectfour-retina/bankingapp@2x.jpg 2x">
+                  <img src="./images/BankingApp.jpg" alt="" />
+                </picture>
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -382,12 +383,17 @@
             </li>
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/2.jpg"
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/cashless.jpg 1x, ./images/sectfour-retina/desktop/cashless@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/cashless.jpg 1x, ./images/sectfour-retina/tablet/cashless@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/cashless.jpg 1x, images/sectfour-retina/cashless@2x.jpg 2x">
+                  <img
+                  src="./images/CashlessPayment.jpg"
                   alt="Cashless Payment"
-                  width="356"
-                  height="300"
+                  
                 />
+                </picture>
+                
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -401,12 +407,16 @@
             </li>
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/3.jpg"
-                  alt="Meditation App"
-                  width="356"
-                  height="300"
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/meditation.jpg 1x, ./images/sectfour-retina/desktop/meditation@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/meditation.jpg 1x, ./images/sectfour-retina/tablet/meditation@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/meditation.jpg 1x, images/sectfour-retina/meditation@2x.jpg 2x">
+                  <img
+                  src="./images/MeditationApp.jpg"
+                  alt=""
+                  
                 />
+                </picture>
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -420,11 +430,14 @@
             </li>
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/4.jpg"
-                  alt="Taxi Service"
-                  width="356"
-                  height="300"
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/taxi.jpg 1x, ./images/sectfour-retina/desktop/taxi@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/taxi.jpg 1x, ./images/sectfour-retina/tablet/taxi@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/taxi.jpg 1x, images/sectfour-retina/taxi@2x.jpg 2x">
+                  <img
+                  src="./images/TaxiService.jpg"
+                  alt=""
+                  
                 />
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -439,11 +452,14 @@
             </li>
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/5.jpg"
-                  alt="Screen Illustrations"
-                  width="356"
-                  height="300"
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/screen.jpg 1x, ./images/sectfour-retina/desktop/screen@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/screen.jpg 1x, ./images/sectfour-retina/tablet/screen@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/screen.jpg 1x, images/sectfour-retina/screen@2x.jpg 2x">
+                  <img
+                  src="./images/ScreenIllustrations.jpg"
+                  alt=""
+                  
                 />
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -458,11 +474,14 @@
             </li>
             <li class="item-sect-four">
               <div class="sect-four-img">
-                <img
-                  src="./images/tablet-sect4/6.jpg"
-                  alt="Online Courses"
-                  width="356"
-                  height="300"
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="./images/sectfour-retina/desktop/online.jpg 1x, ./images/sectfour-retina/desktop/online@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="./images/sectfour-retina/tablet/online.jpg 1x, ./images/sectfour-retina/tablet/online@2x.jpg 2x">
+                  <source media="(max-width: 767px)" srcset="./images/sectfour-retina/online.jpg 1x, images/sectfour-retina/online@2x.jpg 2x">
+                  <img
+                  src="./images/OnlineCourses.jpg"
+                  alt=""
+                  
                 />
                 <p class="sect-four-img-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
